@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/luscious-scoop/recursion/issues"
   },
-  "homepage": "https://github.com/luscious-scoop/recursion#readme"
+  "homepage": "https://github.com/luscious-scoop/recursion#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.0",
+    "globals": "^17.11.0"
+  }
 }
