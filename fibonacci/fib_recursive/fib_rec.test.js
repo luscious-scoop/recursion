@@ -1,5 +1,9 @@
 import { fibRec } from './fib_rec.js';
 
+test('Returns empty array if n is zero or less', () => {
+  expect(fibRec(0)).toEqual([]);
+});
+
 test('Returns the fibonacci series upto 1', () => {
   expect(fibRec(1)).toEqual([0]);
 });
