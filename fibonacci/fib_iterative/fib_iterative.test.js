@@ -1,5 +1,9 @@
 import { fib } from './fib_iterative.js';
 
+test('Returns empty array if n is zero or less ', () => {
+  expect(fib(0)).toEqual([]);
+});
+
 test('Returns the fibonacci series upto 1', () => {
   expect(fib(1)).toEqual([0]);
 });

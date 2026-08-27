@@ -5,6 +5,10 @@ export function fib(n) {
     return [0];
   }
 
+  if (n <= 0) {
+    return [];
+  }
+
   let prev;
   let next;
   let value;
