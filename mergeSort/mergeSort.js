@@ -31,4 +31,3 @@ export function mergeSort(array) {
 
   return result;
 }
-console.log(mergeSort([99.7, 23.3, 8.9, 6.4, 1.5]));
