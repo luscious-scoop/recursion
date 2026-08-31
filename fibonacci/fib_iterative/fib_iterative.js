@@ -23,5 +23,3 @@ export function fib(n) {
 
   return fibonacciNumbers;
 }
-
-// console.log(fib(2));

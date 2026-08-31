@@ -13,5 +13,3 @@ export function fibRec(n, fibonacciNumbers = [0], index = 0) {
   fibonacciNumbers.push(value);
   return fibRec(n - 1, fibonacciNumbers, index + 1);
 }
-
-console.log(fibRec(0));
